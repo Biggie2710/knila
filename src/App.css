@@ -157,3 +157,126 @@
 .add-content p a:hover{
     color: #ffb32d;
 }
+
+@media only screen and (min-device-width: 280px){
+     .row.d-flex.firstSec{
+        flex-direction: column;
+    }
+    .col.expert{
+        margin-bottom: 3%;
+    }
+    .ant-table-wrapper{
+        overflow-x: auto;
+    }
+}
+@media only screen and (min-device-width: 320px){
+     .row.d-flex.firstSec{
+        flex-direction: column;
+    }
+    .ant-table-wrapper{
+        overflow-x: auto;
+    }
+    .row.mb-5.expertCon{
+    display: flex ;
+    flex-direction: column ;
+    }
+    .col.expert{
+        margin-bottom: 3%;
+    }
+}
+@media only screen and (min-device-width: 360px){
+    .row.d-flex.firstSec{
+        flex-direction: column;
+    }
+    .ant-table-wrapper{
+        overflow-x: auto;
+    }
+    .row.mb-5.expertCon{
+    display: flex ;
+    flex-direction: column ;
+    }
+    .col.expert{
+        margin-bottom: 3%;
+    }
+}
+@media only screen and (min-device-width: 390px){
+.footer-main{
+     padding-bottom: 22%;
+    }
+}
+@media only screen and (min-device-width: 412px){
+.footer-main{
+    padding-bottom: 40%;
+    padding-top: 7%;
+    }
+}
+@media only screen and (min-device-width: 414px){
+.footer-main{
+     padding-bottom: 33%;
+    }
+}
+@media only screen and (min-device-width: 430px){
+.footer-main{
+     padding-bottom: 40%;
+     padding-top: 1%;
+    }
+}
+@media only screen and (min-device-width: 540px){
+.footer-main{
+     padding-bottom: 0%;
+     padding-top: 50px;
+    }
+}
+@media only screen and (min-device-width: 768px){
+    .row.mb-5.expertCon{
+    display: flex ;
+    flex-direction: row ;
+    }
+    .footer-main{
+     padding-bottom: 34%;
+    }
+    .ant-table-wrapper{
+        overflow-x: auto;
+    }
+}
+@media only screen and (min-device-width: 820px){
+     .row.d-flex.firstSec{
+        flex-direction: row;
+    }  
+    .footer-main{
+     padding-bottom: 52%;
+    }
+    .ant-table-wrapper{
+        overflow-x: auto;
+    }
+}
+@media only screen and (min-device-width: 912px){
+    .footer-main{
+        padding-top: 1%;
+        padding-bottom: 67%;
+    }
+}
+@media only screen and (min-device-width: 1024px){
+     .row.d-flex.firstSec{
+        flex-direction: row;
+    }  
+    .footer-main{
+     padding-bottom: 60%;
+    }
+
+    .ant-table-wrapper{
+        overflow-x: auto;
+    }
+}
+@media (min-width:1281px) {
+     .row.d-flex.firstSec{
+        flex-direction: row;
+    }    
+    .row.mb-5.expertCon{
+    display: flex ;
+    flex-direction: row ;
+    }
+    .footer-main{
+     padding-bottom: 0;
+    }
+}

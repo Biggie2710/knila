@@ -127,7 +127,7 @@ const Home = () => {
   return (
     <div>
       <div class="container-fluid">
-        <div class="row d-flex">
+        <div class="row d-flex firstSec">
           <div class="col align-middle">
             <div class="px-2 py-2">
               <img src="https://img.freepik.com/free-vector/happy-freelancer-with-computer-home-young-man-sitting-armchair-using-laptop-chatting-online-smiling-vector-illustration-distance-work-online-learning-freelance_74855-8401.jpg?w=900&t=st=1667037491~exp=1667038091~hmac=7c71ea8afc8f3cc8065c5ccc05d105e3c8a7b76f0133016cb210a7882dc19611" class="img-fluid" alt="..." />
@@ -153,8 +153,8 @@ const Home = () => {
             <h2>Meet Our Expert</h2>
             <p>Highly professional team</p>
           </div>
-          <div class="row mb-5">
-            <div class="col">
+          <div class="row mb-5 expertCon">
+            <div class="col expert">
               <div class="card" >
                 <img src="https://img.freepik.com/free-vector/work-time-concept-illustration_114360-1474.jpg?w=740&t=st=1667038053~exp=1667038653~hmac=7f51a4d7c9f7dc9e0e3a6d53d45f381fc455e5424bcc36a0bedca65db24487e7" class="card-img-top" style={{ height: "300px" }} alt="..." />
                 <div class="card-body">
@@ -164,7 +164,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col expert">
               <div class="card" >
                 <img src="https://img.freepik.com/free-vector/work-time-concept-illustration_114360-1074.jpg" class="card-img-top" style={{ height: "300px" }} alt="..." />
                 <div class="card-body">
@@ -174,7 +174,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col expert">
               <div class="card" >
                 <img src="https://img.freepik.com/free-vector/teaching-concept-illustration_114360-1708.jpg?w=740&t=st=1667038099~exp=1667038699~hmac=d144ede4a891a4bfcb57b109cc26614850ed35f5260bbf32541845325c476dbb" class="card-img-top" style={{ height: "300px" }} alt="..." />
                 <div class="card-body">
@@ -194,7 +194,7 @@ const Home = () => {
           <h2>Workout</h2>
           <p>Contact listing in table</p>
         </div>
-        <Table columns={columns} dataSource={addData} onChange={onChange} />;
+        <Table columns={columns} dataSource={addData} onChange={onChange} />
       </div>
     </div>
   )
